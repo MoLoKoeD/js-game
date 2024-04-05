@@ -1,4 +1,4 @@
-import { startGame } from "./startGame.js";
+import { startGame } from './startGame.js';
 
 export const createGameMenu = () => {
   const title = document.createElement('h2');
