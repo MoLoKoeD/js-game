@@ -1,7 +1,7 @@
-import { createGameCard } from "./gameCard.js";
-import { createGameMenu } from "./gameMenu.js";
-import { confetti } from "./salut.js";
-import { createIconsArray, duplicateArray, shuffle } from "./utils.js";
+import { createGameCard } from './gameCard.js';
+import { createGameMenu } from './gameMenu.js';
+import { confetti } from './salut.js';
+import { createIconsArray, duplicateArray, shuffle } from './utils.js';
 
 export const startGame = (difficult) => {
   let firstCard = null;
